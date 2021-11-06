@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>搜索 | Blog</title>
+<title>Github+Gridea创建个人Blog | Blog</title>
 
 <link rel="shortcut icon" href="https://mapengfeii.github.io/favicon.ico?v=1636181380574">
 
@@ -27,21 +25,11 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.0/dist/fuse.basic.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/ejs@3.1.3/ejs.min.js"></script>
-    <script src="https://mapengfeii.github.io/media/gridea-search/gridea-search.js"></script>
-    <script src="https://mapengfeii.github.io/media/gridea-search/result-template.ejs" type="text/ejs"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
 </head>
-
 <body>
-    <style>
-        .searched-keyword {
-            background-color: yellow;
-            color: red;
-        }
-    </style>
-    <div class="main gt-bg-theme-color-first">
-        <nav class="navbar navbar-expand-lg">
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="/">
         <img class="user-avatar" src="/images/avatar.png" alt="头像">
         <div class="site-name gt-c-content-color-first">
@@ -109,16 +97,73 @@
     }
 </script>
 
-        <div id="gridea-search-result" data-update="1636181380574">
-            <div class="searching" style="font-size: 18px; margin-top: 50px;">
-                <i class="fa fa-sync-alt fa-spin"></i>&nbsp;&nbsp;搜索中......
-                <br><br>
-                <span style="font-size: 65%; color: #aaa">第一次搜索可能需要耗费较长时间构建索引，请耐心等待...</span>
-            </div>
-            <div class="no-result" style="display:none; font-size: 20px; margin-top: 50px;">
-                <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;未搜索到相关文章，请更换关键词
-            </div>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    Github+Gridea创建个人Blog
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-11-06 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>最初采用 Github+Hexo 的方式创建了Blog，后来发现从配置到最后写文章发布都比较繁琐，偶然的机会了解到 Gridea（一个静态博客写作客户端，带有可视化界面），可以大大简化的建立blog的流程。这里主要总结分享一下采用 Github+Gridea的方式建立个人Blog的简易方式，主要步骤：</p>
+<ul>
+<li>注册Github</li>
+<li>购买域名</li>
+<li>配置Gridea</li>
+<li>更换主题</li>
+</ul>
+<h3 id="github">Github</h3>
+<ol>
+<li><strong>注册GitHub</strong>。官网注册</li>
+<li><strong>创建仓库｜Create a repository</strong>。用于存放博客数据，这里需要注意一点，仓库名称需要固定的格式“username.github.io”，这里的username要和第1步注册时用户名保持一致（如果不购买域名，这个地址也就是博客的登录的地址，介意的话用户名一定要提前想好）</li>
+<li><strong>生成Token</strong>。Github登录账号后，右上角头像，依次点击 Settings-Developer setting-Personal access tokens-Create new token（这里日期可以设置为无限制）。作用主要是后面配置Gridea使用，可以理解为本地文章向Github提交数据时的认证</li>
+</ol>
+<h3 id="购买域名">购买域名</h3>
+<ol>
+<li>阿里云购买。其他方式也可以，价格也不贵，注册自己喜欢的，这里不赘述了（另外，注册域名需要实名认证，大概1～3个工作日）</li>
+<li>域名解析。主要就是将域名指定到GitHub地址，参考下图</li>
+</ol>
+<p><img src="https://mapengfeii.github.io/post-images/1636180295284.png" alt="" loading="lazy"><br>
+3. GitHub配置。在GitHub中找到仓库，依次点击 Settings-Pages，找到Custom domain，然后将申请到域名填进去后，点击Save直到验证成功（注意这是仓库的Settings），参考下图<br>
+<img src="https://mapengfeii.github.io/post-images/1636180677448.png" alt="" loading="lazy"></p>
+<h3 id="配置gridea">配置Gridea</h3>
+<ol>
+<li>去官网下载Gridea客户端</li>
+<li>配置。参考下图（要注意，目前GitHub默认创建仓库后到分支名称是main，而不是master），令牌就是Token，配置完成后远程检测测试一下，成功后保存</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://mapengfeii.github.io/post-images/1636180330864.png" alt="" loading="lazy"></figure>
+<h3 id="更换主题">更换主题</h3>
+<ol>
+<li>依次打开 主题-更多主题，找到自己喜欢的主题后，下载到本地解压缩（参考下图）</li>
+<li>在下图左下角位置找到本地存放文件数据位置，将解压缩后的文件移动到/*/Gridea/themes下，重启Gridea后就可以在主题中更换刚刚下载的主题</li>
+</ol>
+<figure data-type="image" tabindex="2"><img src="https://mapengfeii.github.io/post-images/1636180929443.png" alt="" loading="lazy"></figure>
+<p>这样，博客就算搭建好了。</p>
+
+                </div>
+            </article>
         </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://mapengfeii.github.io/post/hello-gridea/" class="post-title gt-a-link">
+                    Hello Gridea
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
         <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first">温故而知新</div>
     <div class="social-container">
@@ -150,6 +195,6 @@
 </script>
 
     </div>
+</div>
 </body>
-
 </html>
