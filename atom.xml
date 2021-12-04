@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mapengfeii.github.io</id>
+    <id>https://mapengfei.cn</id>
     <title>Blog</title>
-    <updated>2021-11-06T07:09:43.080Z</updated>
+    <updated>2021-12-04T13:32:52.878Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mapengfeii.github.io"/>
-    <link rel="self" href="https://mapengfeii.github.io/atom.xml"/>
+    <link rel="alternate" href="https://mapengfei.cn"/>
+    <link rel="self" href="https://mapengfei.cn/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://mapengfeii.github.io/images/avatar.png</logo>
-    <icon>https://mapengfeii.github.io/favicon.ico</icon>
+    <logo>https://mapengfei.cn/images/avatar.png</logo>
+    <icon>https://mapengfei.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, Blog</rights>
     <entry>
         <title type="html"><![CDATA[Github+Gridea创建个人Blog]]></title>
-        <id>https://mapengfeii.github.io/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/</id>
-        <link href="https://mapengfeii.github.io/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/">
+        <id>https://mapengfei.cn/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/</id>
+        <link href="https://mapengfei.cn/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/">
         </link>
         <updated>2021-11-06T05:48:30.000Z</updated>
         <content type="html"><![CDATA[<p>最初采用 Github+Hexo 的方式创建了Blog，后来发现从配置到最后写文章发布都比较繁琐，偶然的机会了解到 Gridea（一个静态博客写作客户端，带有可视化界面），可以大大简化的建立blog的流程。这里主要总结分享一下采用 Github+Gridea的方式建立个人Blog的简易方式，主要步骤：</p>
@@ -34,54 +34,22 @@
 <li>阿里云购买。其他方式也可以，价格也不贵，注册自己喜欢的，这里不赘述了（另外，注册域名需要实名认证，大概1～3个工作日）</li>
 <li>域名解析。主要就是将域名指定到GitHub地址，参考下图</li>
 </ol>
-<p><img src="https://mapengfeii.github.io/post-images/1636180295284.png" alt="" loading="lazy"><br>
+<p><img src="https://mapengfei.cn/post-images/1636180295284.png" alt="" loading="lazy"><br>
 3. GitHub配置。在GitHub中找到仓库，依次点击 Settings-Pages，找到Custom domain，然后将申请到域名填进去后，点击Save直到验证成功（注意这是仓库的Settings），参考下图<br>
-<img src="https://mapengfeii.github.io/post-images/1636180677448.png" alt="" loading="lazy"></p>
+<img src="https://mapengfei.cn/post-images/1636180677448.png" alt="" loading="lazy"></p>
 <h3 id="配置gridea">配置Gridea</h3>
 <ol>
 <li>去官网下载Gridea客户端</li>
 <li>配置。参考下图（要注意，目前GitHub默认创建仓库后到分支名称是main，而不是master），令牌就是Token，配置完成后远程检测测试一下，成功后保存</li>
 </ol>
-<figure data-type="image" tabindex="1"><img src="https://mapengfeii.github.io/post-images/1636180330864.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://mapengfei.cn/post-images/1636180330864.png" alt="" loading="lazy"></figure>
 <h3 id="更换主题">更换主题</h3>
 <ol>
 <li>依次打开 主题-更多主题，找到自己喜欢的主题后，下载到本地解压缩（参考下图）</li>
 <li>在下图左下角位置找到本地存放文件数据位置，将解压缩后的文件移动到/*/Gridea/themes下，重启Gridea后就可以在主题中更换刚刚下载的主题</li>
 </ol>
-<figure data-type="image" tabindex="2"><img src="https://mapengfeii.github.io/post-images/1636180929443.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://mapengfei.cn/post-images/1636180929443.png" alt="" loading="lazy"></figure>
 <p>这样，博客就算搭建好了。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://mapengfeii.github.io/post/hello-gridea/</id>
-        <link href="https://mapengfeii.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
