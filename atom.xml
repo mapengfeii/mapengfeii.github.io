@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mapengfei.cn</id>
+    <id>http://localhost:4000</id>
     <title>Blog</title>
-    <updated>2021-12-05T06:05:21.026Z</updated>
+    <updated>2021-12-05T06:30:12.167Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mapengfei.cn"/>
-    <link rel="self" href="https://mapengfei.cn/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://mapengfei.cn/images/avatar.png</logo>
-    <icon>https://mapengfei.cn/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2021, Blog</rights>
     <entry>
-        <title type="html"><![CDATA[测试]]></title>
-        <id>https://mapengfei.cn/post/ce-shi/</id>
-        <link href="https://mapengfei.cn/post/ce-shi/">
-        </link>
-        <updated>2021-12-05T06:04:57.000Z</updated>
-        <content type="html"><![CDATA[<p>111</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[工具的选择]]></title>
-        <id>https://mapengfei.cn/post/gong-ju-de-xuan-ze/</id>
-        <link href="https://mapengfei.cn/post/gong-ju-de-xuan-ze/">
+        <id>http://localhost:4000/post/gong-ju-de-xuan-ze/</id>
+        <link href="http://localhost:4000/post/gong-ju-de-xuan-ze/">
         </link>
         <updated>2021-12-05T03:55:08.000Z</updated>
         <content type="html"><![CDATA[<p>博客很早就建立起来了，只是没想好写些什么，最近每周获取的信息非常多，就想着做一些规整，记录一下每周的新想法和新鲜事</p>
@@ -45,8 +36,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Github+Gridea创建个人Blog]]></title>
-        <id>https://mapengfei.cn/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/</id>
-        <link href="https://mapengfei.cn/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/">
+        <id>http://localhost:4000/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/</id>
+        <link href="http://localhost:4000/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/">
         </link>
         <updated>2021-11-06T05:48:30.000Z</updated>
         <content type="html"><![CDATA[<p>最初采用 Github+Hexo 的方式创建了Blog，后来发现从配置到最后写文章发布都比较繁琐，偶然的机会了解到 Gridea（一个静态博客写作客户端，带有可视化界面），可以大大简化的建立blog的流程。这里主要总结分享一下采用 Github+Gridea的方式建立个人Blog的简易方式，主要步骤：</p>
@@ -67,21 +58,21 @@
 <li>阿里云购买。其他方式也可以，价格也不贵，注册自己喜欢的，这里不赘述了（另外，注册域名需要实名认证，大概1～3个工作日）</li>
 <li>域名解析。主要就是将域名指定到GitHub地址，参考下图</li>
 </ol>
-<p><img src="https://mapengfei.cn/post-images/1636180295284.png" alt="" loading="lazy"><br>
+<p><img src="http://localhost:4000/post-images/1636180295284.png" alt="" loading="lazy"><br>
 3. GitHub配置。在GitHub中找到仓库，依次点击 Settings-Pages，找到Custom domain，然后将申请到域名填进去后，点击Save直到验证成功（注意这是仓库的Settings），参考下图<br>
-<img src="https://mapengfei.cn/post-images/1636180677448.png" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1636180677448.png" alt="" loading="lazy"></p>
 <h3 id="配置gridea">配置Gridea</h3>
 <ol>
 <li>去官网下载Gridea客户端</li>
 <li>配置。参考下图（要注意，目前GitHub默认创建仓库后到分支名称是main，而不是master），令牌就是Token，配置完成后远程检测测试一下，成功后保存</li>
 </ol>
-<figure data-type="image" tabindex="1"><img src="https://mapengfei.cn/post-images/1636180330864.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1636180330864.png" alt="" loading="lazy"></figure>
 <h3 id="更换主题">更换主题</h3>
 <ol>
 <li>依次打开 主题-更多主题，找到自己喜欢的主题后，下载到本地解压缩（参考下图）</li>
 <li>在下图左下角位置找到本地存放文件数据位置，将解压缩后的文件移动到/*/Gridea/themes下，重启Gridea后就可以在主题中更换刚刚下载的主题</li>
 </ol>
-<figure data-type="image" tabindex="2"><img src="https://mapengfei.cn/post-images/1636180929443.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="http://localhost:4000/post-images/1636180929443.png" alt="" loading="lazy"></figure>
 <p>这样，博客就算搭建好了。</p>
 ]]></content>
     </entry>
