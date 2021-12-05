@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mapengfei.cn</id>
     <title>Blog</title>
-    <updated>2021-12-04T13:37:09.457Z</updated>
+    <updated>2021-12-05T06:05:21.026Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mapengfei.cn"/>
     <link rel="self" href="https://mapengfei.cn/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://mapengfei.cn/images/avatar.png</logo>
     <icon>https://mapengfei.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://mapengfei.cn/post/ce-shi/</id>
+        <link href="https://mapengfei.cn/post/ce-shi/">
+        </link>
+        <updated>2021-12-05T06:04:57.000Z</updated>
+        <content type="html"><![CDATA[<p>111</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[工具的选择]]></title>
+        <id>https://mapengfei.cn/post/gong-ju-de-xuan-ze/</id>
+        <link href="https://mapengfei.cn/post/gong-ju-de-xuan-ze/">
+        </link>
+        <updated>2021-12-05T03:55:08.000Z</updated>
+        <content type="html"><![CDATA[<p>博客很早就建立起来了，只是没想好写些什么，最近每周获取的信息非常多，就想着做一些规整，记录一下每周的新想法和新鲜事</p>
+<h3 id="我们在选择工具-or-工具在选择我们">我们在选择工具 or 工具在选择我们 ？</h3>
+<p>个人还是比较喜欢折腾，每次有新的工具软件出现，都去注册试一试，随着试用工具的增多，真正留下来在用的也就那几个，最近刚好在想这个问题：<strong>在选择工具的时候，出发点是什么，自己的真实需求 or 工具所提供的功能？真正重要的是什么？</strong></p>
+<p>举个例子，比如选择个人笔记工具的时候，我的第一选择是去比较不同笔记软件的功能及体验，然后从其中选择一个功能比较全面，设计比较友好的来用。但大部分时间很多功能我都不会用到，用了一段时间后会发现，功能越多都工具反而会很臃肿（因为有很多自己用不到功能），然后就想着换一个稍微简单点的吧。随着用的越多，才发现，</p>
+<ol>
+<li>真正重要的是内容</li>
+<li>笔记工具只需要，
+<ul>
+<li>适合自己的编辑器</li>
+<li>好的分类方式，比如：标签系统</li>
+</ul>
+</li>
+<li>定期回顾的习惯</li>
+</ol>
+<p>从这个出发点开始，会发现能够选择的工具就非常多了（甚至word也可以，只不过在 分类 和 不同文件打开切换上 不好），选择一个，坚持下去就好了，<strong>重要的是内容。</strong></p>
+<p>从工具选择这个点延伸，对于做个人选择来说，一个很好的方法就是：列清单。列出自己的真实需要，然后由此出发去做选择，选择后就不要多想，做好坚持直到遇到新的需求，重复这个流程就好了</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Github+Gridea创建个人Blog]]></title>
         <id>https://mapengfei.cn/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/</id>
