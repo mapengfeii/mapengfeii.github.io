@@ -1,19 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mapengfeii.github.io</id>
+    <id>https://pf711.cn</id>
     <title>Blog</title>
-    <updated>2021-12-11T10:03:09.804Z</updated>
+    <updated>2021-12-12T04:44:33.166Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mapengfeii.github.io"/>
-    <link rel="self" href="https://mapengfeii.github.io/atom.xml"/>
+    <link rel="alternate" href="https://pf711.cn"/>
+    <link rel="self" href="https://pf711.cn/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://mapengfeii.github.io/images/avatar.png</logo>
-    <icon>https://mapengfeii.github.io/favicon.ico</icon>
+    <logo>https://pf711.cn/images/avatar.png</logo>
+    <icon>https://pf711.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, Blog</rights>
     <entry>
+        <title type="html"><![CDATA[回顾一下2021年读过的书]]></title>
+        <id>https://pf711.cn/post/hui-gu-yi-xia-2021-nian-du-guo-de-shu/</id>
+        <link href="https://pf711.cn/post/hui-gu-yi-xia-2021-nian-du-guo-de-shu/">
+        </link>
+        <updated>2021-12-11T08:03:03.000Z</updated>
+        <content type="html"><![CDATA[<p>📒马上2021年过去了，整理了一下今年读过的书，每一本都收获颇多，</p>
+<ol>
+<li>
+<p>《娱乐至死》 尼尔·波兹曼</p>
+<p>电视什么时候开始侵入我们的日常，又会对我们自身的思考和整个社会带来什么样的影响，波兹曼会引导我们带着批判的思维去思考这件事，至于是否认可观点，还取决我们自己</p>
+</li>
+<li>
+<p>《如何阅读一本书》 莫提默·艾德勒 查尔斯·范多伦</p>
+<p>重新认识一下读书这件事</p>
+</li>
+<li>
+<p>《卡片盒笔记法》 申克·阿伦斯</p>
+<p>学习一下德国的社会学家 尼克拉斯-卢曼 是如何使用「卡片盒笔记法」来实现50本专著和600篇论文的高产输出写作的</p>
+</li>
+<li>
+<p>《卓有成效的管理者》 彼得·德鲁克</p>
+<p>如何做好 个人管理、时间管理、成果管理、向上管理等</p>
+</li>
+<li>
+<p>《富兰克林自传》本杰明·富兰克林</p>
+<p>政治家、外交家、科学家、发明家、作家，一个拥有多种身份且都做的优秀的人的经历</p>
+</li>
+<li>
+<p>《创造时间》 杰克·纳普 约翰·泽拉茨基</p>
+<p>谷歌工程师的时间管理技巧</p>
+</li>
+<li>
+<p>《掌控习惯》 詹姆斯·克利尔</p>
+<p>“三十岁之前你形成习惯，三十岁之后习惯成就你”，学习一下习惯的原理</p>
+</li>
+<li>
+<p>《设计中的设计》 原研哉</p>
+<p>设计的起点</p>
+</li>
+<li>
+<p>《孵化Twitter》 尼克·比尔顿</p>
+<p>Twitter创始人的“宫斗”史</p>
+</li>
+<li>
+<p>《少即是多：北欧自由生活意见》 本田直之</p>
+<p>极简主义生活</p>
+</li>
+<li>
+<p>《小岛经济学》 彼得·希夫 安德鲁·希夫</p>
+<p>经济学通俗读物</p>
+</li>
+<li>
+<p>《完全写作指南》 劳拉·布朗</p>
+<p>写作技巧与方法</p>
+</li>
+<li>
+<p>《一生的旅程》 罗伯特·艾格</p>
+<p>迪斯尼CEO的人生经历</p>
+</li>
+<li>
+<p>《格鲁夫给经理人的第一课》 安迪·格鲁夫</p>
+<p>团队如何实现高产出</p>
+</li>
+<li>
+<p>《德米安》 赫尔曼·黑塞</p>
+<p>寻找自我的历程</p>
+</li>
+<li>
+<p>《OKR工作法》 克里斯蒂娜·沃特克</p>
+<p>通过一个故事讲述OKR如何实现</p>
+</li>
+<li>
+<p>《西方哲学史》 罗素</p>
+<p>西方哲学通俗读物</p>
+</li>
+<li>
+<p>《杀死一只知更鸟》 哈珀·李</p>
+<p>成长中的善良和爱</p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[工具的选择]]></title>
-        <id>https://mapengfeii.github.io/post/gong-ju-de-xuan-ze/</id>
-        <link href="https://mapengfeii.github.io/post/gong-ju-de-xuan-ze/">
+        <id>https://pf711.cn/post/gong-ju-de-xuan-ze/</id>
+        <link href="https://pf711.cn/post/gong-ju-de-xuan-ze/">
         </link>
         <updated>2021-12-05T03:55:08.000Z</updated>
         <content type="html"><![CDATA[<p>博客很早就建立起来了，只是没想好写些什么，最近每周获取的信息非常多，就想着做一些规整，记录一下每周的新想法和新鲜事</p>
@@ -36,8 +119,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Github+Gridea创建个人Blog]]></title>
-        <id>https://mapengfeii.github.io/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/</id>
-        <link href="https://mapengfeii.github.io/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/">
+        <id>https://pf711.cn/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/</id>
+        <link href="https://pf711.cn/post/jian-yi-ge-ren-blog-chuang-jian-liu-cheng/">
         </link>
         <updated>2021-11-06T05:48:30.000Z</updated>
         <content type="html"><![CDATA[<p>最初采用 Github+Hexo 的方式创建了Blog，后来发现从配置到最后写文章发布都比较繁琐，偶然的机会了解到 Gridea（一个静态博客写作客户端，带有可视化界面），可以大大简化的建立blog的流程。这里主要总结分享一下采用 Github+Gridea的方式建立个人Blog的简易方式，主要步骤：</p>
@@ -58,21 +141,21 @@
 <li>阿里云购买。其他方式也可以，价格也不贵，注册自己喜欢的，这里不赘述了（另外，注册域名需要实名认证，大概1～3个工作日）</li>
 <li>域名解析。主要就是将域名指定到GitHub地址，参考下图</li>
 </ol>
-<p><img src="https://mapengfeii.github.io/post-images/1636180295284.png" alt="" loading="lazy"><br>
+<p><img src="https://pf711.cn/post-images/1636180295284.png" alt="" loading="lazy"><br>
 3. GitHub配置。在GitHub中找到仓库，依次点击 Settings-Pages，找到Custom domain，然后将申请到域名填进去后，点击Save直到验证成功（注意这是仓库的Settings），参考下图<br>
-<img src="https://mapengfeii.github.io/post-images/1636180677448.png" alt="" loading="lazy"></p>
+<img src="https://pf711.cn/post-images/1636180677448.png" alt="" loading="lazy"></p>
 <h3 id="配置gridea">配置Gridea</h3>
 <ol>
 <li>去官网下载Gridea客户端</li>
 <li>配置。参考下图（要注意，目前GitHub默认创建仓库后到分支名称是main，而不是master），令牌就是Token，配置完成后远程检测测试一下，成功后保存</li>
 </ol>
-<figure data-type="image" tabindex="1"><img src="https://mapengfeii.github.io/post-images/1636180330864.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://pf711.cn/post-images/1636180330864.png" alt="" loading="lazy"></figure>
 <h3 id="更换主题">更换主题</h3>
 <ol>
 <li>依次打开 主题-更多主题，找到自己喜欢的主题后，下载到本地解压缩（参考下图）</li>
 <li>在下图左下角位置找到本地存放文件数据位置，将解压缩后的文件移动到/*/Gridea/themes下，重启Gridea后就可以在主题中更换刚刚下载的主题</li>
 </ol>
-<figure data-type="image" tabindex="2"><img src="https://mapengfeii.github.io/post-images/1636180929443.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://pf711.cn/post-images/1636180929443.png" alt="" loading="lazy"></figure>
 <p>这样，博客就算搭建好了。</p>
 ]]></content>
     </entry>
