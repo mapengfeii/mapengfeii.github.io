@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pf711.cn</id>
     <title>Blog</title>
-    <updated>2021-12-12T09:01:20.356Z</updated>
+    <updated>2021-12-15T14:46:57.785Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pf711.cn"/>
     <link rel="self" href="https://pf711.cn/atom.xml"/>
@@ -139,23 +139,23 @@
 <h3 id="购买域名">购买域名</h3>
 <ol>
 <li>阿里云购买。其他方式也可以，价格也不贵，注册自己喜欢的，这里不赘述了（另外，注册域名需要实名认证，大概1～3个工作日）</li>
-<li>域名解析。主要就是将域名指定到GitHub地址，参考下图</li>
+<li>域名解析。主要就是将域名指定到GitHub地址，参考下图<br>
+<img src="https://pf711.cn/post-images/1639579512718.png" alt="" loading="lazy"></li>
+<li>GitHub配置。在GitHub中找到仓库，依次点击 Settings-Pages，找到Custom domain，然后将申请到域名填进去后，点击Save直到验证成功（注意这是仓库的Settings），参考下图<br>
+<img src="https://pf711.cn/post-images/1639579526154.png" alt="" loading="lazy"></li>
 </ol>
-<p><img src="https://pf711.cn/post-images/1636180295284.png" alt="" loading="lazy"><br>
-3. GitHub配置。在GitHub中找到仓库，依次点击 Settings-Pages，找到Custom domain，然后将申请到域名填进去后，点击Save直到验证成功（注意这是仓库的Settings），参考下图<br>
-<img src="https://pf711.cn/post-images/1636180677448.png" alt="" loading="lazy"></p>
 <h3 id="配置gridea">配置Gridea</h3>
 <ol>
 <li>去官网下载Gridea客户端</li>
-<li>配置。参考下图（要注意，目前GitHub默认创建仓库后到分支名称是main，而不是master），令牌就是Token，配置完成后远程检测测试一下，成功后保存</li>
+<li>配置。参考下图（要注意，目前GitHub默认创建仓库后到分支名称是main，而不是master），令牌就是Token，配置完成后远程检测测试一下，成功后保存<br>
+<img src="https://pf711.cn/post-images/1639579538741.png" alt="" loading="lazy"></li>
 </ol>
-<figure data-type="image" tabindex="1"><img src="https://pf711.cn/post-images/1636180330864.png" alt="" loading="lazy"></figure>
 <h3 id="更换主题">更换主题</h3>
 <ol>
 <li>依次打开 主题-更多主题，找到自己喜欢的主题后，下载到本地解压缩（参考下图）</li>
 <li>在下图左下角位置找到本地存放文件数据位置，将解压缩后的文件移动到/*/Gridea/themes下，重启Gridea后就可以在主题中更换刚刚下载的主题</li>
 </ol>
-<figure data-type="image" tabindex="2"><img src="https://pf711.cn/post-images/1636180929443.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://pf711.cn/post-images/1636180929443.png" alt="" loading="lazy"></figure>
 <p>这样，博客就算搭建好了。</p>
 ]]></content>
     </entry>
