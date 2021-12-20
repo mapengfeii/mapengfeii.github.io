@@ -6,10 +6,10 @@
 
 <title>Github+Gridea创建个人Blog | Blog</title>
 
-<link rel="shortcut icon" href="https://pf711.cn/favicon.ico?v=1639579611385">
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico?v=1640011391161">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://pf711.cn/styles/main.css">
+<link rel="stylesheet" href="http://localhost:4000/styles/main.css">
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
 
 <script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
@@ -77,7 +77,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1639579611385"
+            <form id="gridea-search-form" style="position: relative" data-update="1640011391161"
                 action="/search/">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -108,7 +108,7 @@
                         · 2021-11-06 ·
                     </time>
                     
-                        <a href="https://pf711.cn/tag/Nw03A9LGx/" class="post-tags">
+                        <a href="http://localhost:4000/tag/Nw03A9LGx/" class="post-tags">
                             # 记录
                         </a>
                     
@@ -131,22 +131,22 @@
 <ol>
 <li>阿里云购买。其他方式也可以，价格也不贵，注册自己喜欢的，这里不赘述了（另外，注册域名需要实名认证，大概1～3个工作日）</li>
 <li>域名解析。主要就是将域名指定到GitHub地址，参考下图<br>
-<img src="https://pf711.cn/post-images/1639579512718.png" alt="" loading="lazy"></li>
+<img src="http://localhost:4000/post-images/1639579512718.png" alt="" loading="lazy"></li>
 <li>GitHub配置。在GitHub中找到仓库，依次点击 Settings-Pages，找到Custom domain，然后将申请到域名填进去后，点击Save直到验证成功（注意这是仓库的Settings），参考下图<br>
-<img src="https://pf711.cn/post-images/1639579526154.png" alt="" loading="lazy"></li>
+<img src="http://localhost:4000/post-images/1639579526154.png" alt="" loading="lazy"></li>
 </ol>
 <h3 id="配置gridea">配置Gridea</h3>
 <ol>
 <li>去官网下载Gridea客户端</li>
 <li>配置。参考下图（要注意，目前GitHub默认创建仓库后到分支名称是main，而不是master），令牌就是Token，配置完成后远程检测测试一下，成功后保存<br>
-<img src="https://pf711.cn/post-images/1639579538741.png" alt="" loading="lazy"></li>
+<img src="http://localhost:4000/post-images/1639579538741.png" alt="" loading="lazy"></li>
 </ol>
 <h3 id="更换主题">更换主题</h3>
 <ol>
 <li>依次打开 主题-更多主题，找到自己喜欢的主题后，下载到本地解压缩（参考下图）</li>
 <li>在下图左下角位置找到本地存放文件数据位置，将解压缩后的文件移动到/*/Gridea/themes下，重启Gridea后就可以在主题中更换刚刚下载的主题</li>
 </ol>
-<figure data-type="image" tabindex="1"><img src="https://pf711.cn/post-images/1636180929443.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1636180929443.png" alt="" loading="lazy"></figure>
 <p>这样，博客就算搭建好了。</p>
 
                 </div>
@@ -190,10 +190,10 @@
 
   var gitalk = new Gitalk({
     clientID: 'a35b48061543c2fae6ae',
-    clientSecret: 'a00b0ecb93da470fde636fc539893742053d1df6',
+    clientSecret: 'f9e30632543d11956cc3037eabfe051e7581b6e5',
     repo: 'mapengfeii.github.io',
-    owner: 'mapengfeii',
-    admin: ['mapengfeii'],
+    owner: 'pf711',
+    admin: ['pf711'],
     id: md5(location.pathname),      // Ensure uniqueness and length less than 50
     distractionFreeMode: false       // Facebook-like distraction free mode
   })
@@ -231,7 +231,7 @@
     </div>
     <div>
         Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://pf711.cn/atom.xml" target="_blank">RSS</a></a>
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="http://localhost:4000/atom.xml" target="_blank">RSS</a></a>
     </div>
 </div>
 
