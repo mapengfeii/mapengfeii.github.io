@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://localhost:4000</id>
     <title>Blog</title>
-    <updated>2021-12-20T14:46:47.905Z</updated>
+    <updated>2021-12-20T14:55:49.042Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://localhost:4000"/>
     <link rel="self" href="http://localhost:4000/atom.xml"/>
@@ -61,7 +61,7 @@
 <p><strong>过度写</strong>。“过度写”是一种隐喻，就是要挑战自己的极限。以前做事情总有一种满足感，比如我今天把规划的重要事项给提前完成了，觉得已经完成了一件大事，那其他的我就可以放放了或者没必要一定完成了，这种态度是错误的，就是要做到不想再做了，这样才会触发极限，进而极限会变高，不然永远也达不到那种高度</p>
 </li>
 <li>
-<p><strong>洞察</strong>。洞察就是体验人的悲欢离合</p>
+<p><strong>洞察</strong>。洞察可以从体验人的悲欢离合开始</p>
 </li>
 <li>
 <p><strong>职业中如何快速成长</strong>。做好本职工作的同时，像其他职位的人那样思考，这样会学的更快更多</p>
