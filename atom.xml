@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://pf711.cn</id>
     <title>Blog</title>
-    <updated>2022-01-20T05:13:44.281Z</updated>
+    <updated>2022-01-20T05:18:14.163Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://pf711.cn"/>
+    <link rel="self" href="https://pf711.cn/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://pf711.cn/images/avatar.png</logo>
+    <icon>https://pf711.cn/favicon.ico</icon>
     <rights>All rights reserved 2022, Blog</rights>
     <entry>
         <title type="html"><![CDATA[工作最后一天]]></title>
-        <id>http://localhost:4000/post/xi-huan-zuo-shi-ren-zhen-de-ren/</id>
-        <link href="http://localhost:4000/post/xi-huan-zuo-shi-ren-zhen-de-ren/">
+        <id>https://pf711.cn/post/xi-huan-zuo-shi-ren-zhen-de-ren/</id>
+        <link href="https://pf711.cn/post/xi-huan-zuo-shi-ren-zhen-de-ren/">
         </link>
         <updated>2022-01-20T04:49:01.000Z</updated>
         <content type="html"><![CDATA[<p>今天是在公司的最后一天，走交接流程的时候，HR带了相关的资料过来，一份清单一项一项核对，签字，包括对这个月薪资的计算方式都写的很清晰。之前接触的不多，不过这种认真的态度瞬间就给自己留下深刻的印象，很喜欢和这样的同事一起工作</p>
@@ -22,8 +22,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[观察自己]]></title>
-        <id>http://localhost:4000/post/guan-cha-zi-ji/</id>
-        <link href="http://localhost:4000/post/guan-cha-zi-ji/">
+        <id>https://pf711.cn/post/guan-cha-zi-ji/</id>
+        <link href="https://pf711.cn/post/guan-cha-zi-ji/">
         </link>
         <updated>2022-01-19T07:28:51.000Z</updated>
         <content type="html"><![CDATA[<p>我的工位是在一个靠窗的位置，现在是冬天，每天下午太阳好的时候一边晒着一边思考非常舒服，最近主要在思考2个事情，<br>
@@ -35,8 +35,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[工作与职业]]></title>
-        <id>http://localhost:4000/post/gong-zuo/</id>
-        <link href="http://localhost:4000/post/gong-zuo/">
+        <id>https://pf711.cn/post/gong-zuo/</id>
+        <link href="https://pf711.cn/post/gong-zuo/">
         </link>
         <updated>2021-12-20T13:51:51.000Z</updated>
         <content type="html"><![CDATA[<p>这周花了点时间，读了诞总的《脱口秀工作手册》，中间有一些关于工作态度的共鸣，想着就写下来，这本书也不算长，2个小时不到就可以读完</p>
@@ -94,8 +94,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[回顾一下2021年读过的书]]></title>
-        <id>http://localhost:4000/post/hui-gu-yi-xia-2021-nian-du-guo-de-shu/</id>
-        <link href="http://localhost:4000/post/hui-gu-yi-xia-2021-nian-du-guo-de-shu/">
+        <id>https://pf711.cn/post/hui-gu-yi-xia-2021-nian-du-guo-de-shu/</id>
+        <link href="https://pf711.cn/post/hui-gu-yi-xia-2021-nian-du-guo-de-shu/">
         </link>
         <updated>2021-12-11T08:03:03.000Z</updated>
         <content type="html"><![CDATA[<p>📒 马上2021年过去了，整理了一下今年读过的书，每一本都收获颇多，</p>
@@ -177,8 +177,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[工具的选择]]></title>
-        <id>http://localhost:4000/post/gong-ju-de-xuan-ze/</id>
-        <link href="http://localhost:4000/post/gong-ju-de-xuan-ze/">
+        <id>https://pf711.cn/post/gong-ju-de-xuan-ze/</id>
+        <link href="https://pf711.cn/post/gong-ju-de-xuan-ze/">
         </link>
         <updated>2021-12-05T03:55:08.000Z</updated>
         <content type="html"><![CDATA[<p>博客很早就建立起来了，只是没想好写些什么，最近每周获取的信息非常多，就想着做一些规整，记录一下每周的新想法和新鲜事</p>
