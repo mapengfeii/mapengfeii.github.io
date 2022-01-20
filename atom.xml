@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://pf711.cn</id>
-    <title>Blog</title>
-    <updated>2022-01-20T05:18:14.163Z</updated>
+    <id>http://localhost:4000</id>
+    <title>pf711</title>
+    <updated>2022-01-20T13:09:29.145Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://pf711.cn"/>
-    <link rel="self" href="https://pf711.cn/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://pf711.cn/images/avatar.png</logo>
-    <icon>https://pf711.cn/favicon.ico</icon>
-    <rights>All rights reserved 2022, Blog</rights>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
+    <rights>All rights reserved 2022, pf711</rights>
     <entry>
-        <title type="html"><![CDATA[工作最后一天]]></title>
-        <id>https://pf711.cn/post/xi-huan-zuo-shi-ren-zhen-de-ren/</id>
-        <link href="https://pf711.cn/post/xi-huan-zuo-shi-ren-zhen-de-ren/">
+        <title type="html"><![CDATA[工作交接]]></title>
+        <id>http://localhost:4000/xi-huan-zuo-shi-ren-zhen-de-ren/</id>
+        <link href="http://localhost:4000/xi-huan-zuo-shi-ren-zhen-de-ren/">
         </link>
         <updated>2022-01-20T04:49:01.000Z</updated>
         <content type="html"><![CDATA[<p>今天是在公司的最后一天，走交接流程的时候，HR带了相关的资料过来，一份清单一项一项核对，签字，包括对这个月薪资的计算方式都写的很清晰。之前接触的不多，不过这种认真的态度瞬间就给自己留下深刻的印象，很喜欢和这样的同事一起工作</p>
@@ -21,9 +21,9 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[观察自己]]></title>
-        <id>https://pf711.cn/post/guan-cha-zi-ji/</id>
-        <link href="https://pf711.cn/post/guan-cha-zi-ji/">
+        <title type="html"><![CDATA[一个冬天下午的思考]]></title>
+        <id>http://localhost:4000/guan-cha-zi-ji/</id>
+        <link href="http://localhost:4000/guan-cha-zi-ji/">
         </link>
         <updated>2022-01-19T07:28:51.000Z</updated>
         <content type="html"><![CDATA[<p>我的工位是在一个靠窗的位置，现在是冬天，每天下午太阳好的时候一边晒着一边思考非常舒服，最近主要在思考2个事情，<br>
@@ -34,9 +34,9 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[工作与职业]]></title>
-        <id>https://pf711.cn/post/gong-zuo/</id>
-        <link href="https://pf711.cn/post/gong-zuo/">
+        <title type="html"><![CDATA[《李诞脱口秀工作手册》笔记]]></title>
+        <id>http://localhost:4000/gong-zuo/</id>
+        <link href="http://localhost:4000/gong-zuo/">
         </link>
         <updated>2021-12-20T13:51:51.000Z</updated>
         <content type="html"><![CDATA[<p>这周花了点时间，读了诞总的《脱口秀工作手册》，中间有一些关于工作态度的共鸣，想着就写下来，这本书也不算长，2个小时不到就可以读完</p>
@@ -93,9 +93,9 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[回顾一下2021年读过的书]]></title>
-        <id>https://pf711.cn/post/hui-gu-yi-xia-2021-nian-du-guo-de-shu/</id>
-        <link href="https://pf711.cn/post/hui-gu-yi-xia-2021-nian-du-guo-de-shu/">
+        <title type="html"><![CDATA[2021年我的书单]]></title>
+        <id>http://localhost:4000/hui-gu-yi-xia-2021-nian-du-guo-de-shu/</id>
+        <link href="http://localhost:4000/hui-gu-yi-xia-2021-nian-du-guo-de-shu/">
         </link>
         <updated>2021-12-11T08:03:03.000Z</updated>
         <content type="html"><![CDATA[<p>📒 马上2021年过去了，整理了一下今年读过的书，每一本都收获颇多，</p>
@@ -176,13 +176,12 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[工具的选择]]></title>
-        <id>https://pf711.cn/post/gong-ju-de-xuan-ze/</id>
-        <link href="https://pf711.cn/post/gong-ju-de-xuan-ze/">
+        <title type="html"><![CDATA[选择工具软件的时候在想什么]]></title>
+        <id>http://localhost:4000/gong-ju-de-xuan-ze/</id>
+        <link href="http://localhost:4000/gong-ju-de-xuan-ze/">
         </link>
         <updated>2021-12-05T03:55:08.000Z</updated>
-        <content type="html"><![CDATA[<p>博客很早就建立起来了，只是没想好写些什么，最近每周获取的信息非常多，就想着做一些规整，记录一下每周的新想法和新鲜事</p>
-<h3 id="我们在选择工具-or-工具在选择我们">我们在选择工具 or 工具在选择我们 ？</h3>
+        <content type="html"><![CDATA[<h3 id="我们在选择工具-or-工具在选择我们">我们在选择工具 or 工具在选择我们 ？</h3>
 <p>个人还是比较喜欢折腾，每次有新的工具软件出现，都去注册试一试，随着试用工具的增多，真正留下来在用的也就那几个，最近刚好在想这个问题：<strong>在选择工具的时候，出发点是什么，自己的真实需求 or 工具所提供的功能？真正重要的是什么？</strong></p>
 <p>举个例子，比如选择个人笔记工具的时候，我的第一选择是去比较不同笔记软件的功能及体验，然后从其中选择一个功能比较全面，设计比较友好的来用。但大部分时间很多功能我都不会用到，用了一段时间后会发现，功能越多都工具反而会很臃肿（因为有很多自己用不到功能），然后就想着换一个稍微简单点的吧。随着用的越多，才发现，</p>
 <ol>
